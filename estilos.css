@@ -20,7 +20,6 @@ body{
 .fondo-2{
     background: url(dos.jpeg);
     background-size: cover;
-    background-position: center;
 }
 
 @keyframes animado {
@@ -178,9 +177,10 @@ img {
     background-color: #fff9df ;
     width: 100%;
     height: 300px;
-    bottom: -500px;
+    bottom: 0;
+    left: -200%;
     text-align: center;
-    transition: 1s;
+    transition: 2s;
     font-size: 25px;
     font-family: 'Lobster', cursive;
     padding: 7px;
@@ -189,4 +189,5 @@ img {
 
 .mensaje {
     bottom: 0;
+    left: 0;
 }
